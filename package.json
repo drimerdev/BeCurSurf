@@ -2,7 +2,7 @@
   "name": "becursurf",
   "version": "0.0.3",
   "description": "An electron based web browser",
-  "main": "src/main.ts",
+  "main": "src/main.js",
   "scripts": {
     "start": "electron ."
   },
@@ -25,7 +25,8 @@
   "dependencies": {
     "bootstrap": "^5.3.2",
     "electron": "^27.1.2",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.2",
+    "webpack": "^5.89.0"
   },
   "devDependencies": {
     "@types/electron": "^1.6.10"
