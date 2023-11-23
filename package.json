@@ -1,0 +1,33 @@
+{
+  "name": "becursurf",
+  "version": "0.0.3",
+  "description": "An electron based web browser",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drimerdev/BeCurSurf.git"
+  },
+  "keywords": [
+    "Electron",
+    "Web",
+    "Browser",
+    "internet"
+  ],
+  "author": "Miguel Vicente (drimerdev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drimerdev/BeCurSurf/issues"
+  },
+  "homepage": "https://github.com/drimerdev/BeCurSurf#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "electron": "^27.1.2",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.10"
+  }
+}
