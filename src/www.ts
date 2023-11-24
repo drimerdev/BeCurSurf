@@ -1,7 +1,9 @@
-function submit(): void {
-    const iframe = document.getElementById('seuIdDoIframe') as HTMLIFrameElement;
-    const submitButton = document.getElementById('seuIdDoSubmitButton') as HTMLButtonElement;
-    const urlBox = document.getElementById('seuIdDoUrlBox') as HTMLInputElement;
+const urlInput = document.getElementById('urlInput') as HTMLInputElement;
+const browserView = document.getElementById('browserView') as HTMLIFrameElement;
 
-    iframe.src = urlBox.value;
+function navigate() {
+    const url = urlInput.value;
+    if (url) {
+        browserView.src = url;
+    }
 }

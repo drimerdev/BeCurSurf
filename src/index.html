@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BeCurSurf</title>
+    <link rel="stylesheet" href="./browser.css">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <script src="./www.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <div>
-        <iframe src="./app_pages/home.html" frameborder="0" id="iframe"></iframe>
+        <input id="urlInput" type="text" placeholder="Url">
+        <button onclick="navigate()">Go</button>
     </div>
+    <webview id="browserView" src="https://www.google.com"></webview>
+
 </body>
 </html>
